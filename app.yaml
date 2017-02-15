@@ -1,14 +1,14 @@
 runtime: python27
 api_version: 1
-threadsafe: yes
+threadsafe: true
 
 handlers:
-- url: .*
+- url: /.*
   script: main.app
 
-#[START env]
+  #[START env]
 env_variables:
-  DATASET_ID: tests
-  TABLE_ID: realtime_markedmondsonme
-  SECRET_SALT: blahblahblah
+  DATASET_ID: dlbi_validator
+  TABLE_ID: weblog
+  SECRET_SALT: sapient123
 #[END env]
