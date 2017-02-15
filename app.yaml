@@ -8,7 +8,7 @@ handlers:
 
   #[START env]
 env_variables:
-  DATASET_ID: dlbi_validator
-  TABLE_ID: weblog
+  DATASET_ID: xxxx
+  TABLE_ID: xxxx
   SECRET_SALT: sapient123
 #[END env]
